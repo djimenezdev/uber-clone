@@ -1,32 +1,32 @@
 {
   "expo": {
+    "scheme": "uberclone",
     "name": "uber-clone",
     "slug": "uber-clone",
+    "description": "This is a Uber Clone. Utilizes key features of React Native. Also implementing expo AuthSession, react native maps, expo location, redux, react navigation, essential google apis & more. Have the expo go app downloaded and scan the qr code  to check out!",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/images/uber-clone-logo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/uber-clone-logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/uber-clone-logo.png",
+        "backgroundColor": "#000"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/uber-clone-logo.png"
     }
   }
 }
